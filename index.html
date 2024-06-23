@@ -3,6 +3,8 @@
 
 <head>
     <title>Munazza's Portfolio</title>
+    <!-- ---favicon--- -->
+    <link rel="icon" href="assets/img/favicon.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.xnet/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="assets"> -->
@@ -137,62 +139,51 @@
     <main>
         <!-- --------------------------About Section------------------->
         <section id="about" class="about overflow-hidden">
-            <header class="text-center" data-aos-delay="100" data-aos="fade-up">
-                <h2 class="primary"><b>About me</b></h2>
-                <h5 class="primary"><b>Who I am</b></h5>
+            <header class="section-header text-center">
+                <h2 class="section-title primary fw-bold">Personal Information</h2>
+                <h5 class="section-subtitle primary fw-bold">Discover Who I Am</h5>
             </header>
-            <div class="container p-0">
-                <div class="row mt-4">
-                    <div class="col-md-6 m-0 p-0" data-aos-delay="100" data-aos="zoom-in-left" data-aos-duration="1000">
-                        <div class="content">
-                            <header class="text-center pb-4">
-                                <h3 class="primary"><b>Personal Information</b></h3>
-                            </header>
-                            <div class="row">
-                                <div class="col-4 offset-2 p-0 left-text" data-aos-delay="700" data-aos="fade-right"
-                                    data-aos-duration="1000">
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Name</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Father Name</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Relegious</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">DOB</span> &nbsp;
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">City</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Domicile</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Degree</span>
-                                    </h6>
-                                    <h6 class="font-weight-bold mb-4">
-                                        <span class="primary">Country</span>
-                                    </h6>
-                                </div>
-                                <div class="col-6 right-text" data-aos-delay="800" data-aos="fade-left"
-                                    data-aos-duration="1000">
-                                    <h6 class="mb-4" style="color: #42a5f5;">Munazza Athar</h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Athar Hussain</h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Muslim</h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Never Show</h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Lodhran,Punjab</h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Lodhran</h6>
-                                    <h6 class="mb-4 fw-bold" style="color: #42a5f5;">CS <span
-                                            class="fw-normal">(continue)</span></h6>
-                                    <h6 class="mb-4" style="color: #42a5f5;">Pakistan</h6>
+            <div class="container">
+                <div class="row mt-5 ">
+                    <div class="col-lg-6">
+                        <div class="about-content" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="personal-info">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="text-info"><strong class="primary">Name:</strong> Munazza Athar
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Father's Name:</strong> Athar
+                                                Hussain</li>
+                                            <li class="text-info"><strong class="primary">Religion:</strong> Muslim</li>
+                                            <li class="text-info"><strong class="primary">Date of Birth:</strong> 14 May 2004</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="text-info"><strong class="primary">City:</strong> Lodhran
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Domicile:</strong> Lodhran, Punjab
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Degree:</strong> CS
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Country:</strong> Pakistan
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+                            <h6 class="mt-4 primary">
+                                I am a passionate individual dedicated to continuous self-improvement and learning. With
+                                a strong background in computer science and a deep commitment to my values, I strive to
+                                make meaningful contributions to the world around me.
+                            </h6>
                         </div>
                     </div>
-                    <div class="col-md-6 m-0 p-0" data-aos-delay="200" data-aos="zoom-in-left" data-aos-duration="1000">
-                        <img src="assets/img/.png" class="about-img" alt="hey i am about image">
+                    <div class="col-lg-6">
+                        <div class="about-image" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <img src="assets/img/hero2.png" class="img-fluid w-100" alt="About Me Image">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -670,30 +661,38 @@
                         <div class="col-12 col-md-6 col-lg-6">
                             <nav class="w-100">
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-contact-tab" data-bs-toggle="tab"
+                                    <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home active" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">
+                                        About Work</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-contact" type="button" role="tab"
                                         aria-controls="nav-contact" aria-selected="false"><span
                                             class="text-primary">Working</span></button>
-                                    <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                        aria-selected="true">
-                                        About Me</button>
                                     <button class="nav-link" id="nav-goal-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-goal" type="button" role="tab" aria-controls="nav-goal"
                                         aria-selected="false"><span class="text-primary">Goal</span></button>
                                 </div>
                             </nav>
                             <div class="tab-content   pt-4" id="nav-tabContent">
-                                <div class="tab-pane fade active show" id="nav-contact" role="tabpanel"
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">
                                     <h3 class="primary"><b>Previous Work</b></h3>
                                     <span>
-                                        I am Work on these Websites and I will make these tempelate.
-                                        Clik on These images to see full image.
-                                        I am just
+                                        I am an experienced web developer who has worked on numerous websites in the
+                                        past. With a keen eye for detail and a passion for creating engaging online
+                                        experiences.<br> I have contributed significantly to various projects.From
+                                        designing user-friendly interfaces to implementing robust backend
+                                        functionalities, I have demonstrated proficiency across the full stack of web
+                                        development. My dedication to crafting high-quality websites is evident in my
+                                        work, where I have consistently delivered results that exceed expectations. My
+                                        diverse portfolio showcases my ability to adapt to different project
+                                        requirements and effectively collaborate with clients to bring their visions to
+                                        life. With a strong foundation in web development and a commitment to continuous
+                                        learning, I am poised to make a valuable contribution to any future projects.
                                     </span>
                                 </div>
-                                <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                     <div class="text dark-primary">
                                         There is a lot of things that I have learned about myself in the past few weeks
                                         of
@@ -725,42 +724,85 @@
                                     aria-labelledby="nav-contact-tab">
                                     <h3 class="primary"><b>My Aim</b></h3>
                                     <span>
-                                        I am Work on these Websites and I will make these tempelate.
-                                        Clik on These images to see full image.
-                                        I am just
+                                        My goal is to become the best developer I can possibly be. With a passion for
+                                        technology and a drive for continuous improvement, I am committed to honing my
+                                        skills and expanding my knowledge in the field of development. I aim to stay
+                                        abreast of the latest trends and advancements in technology, constantly pushing
+                                        the boundaries of what I can achieve. By immersing myself in challenging
+                                        projects and seeking opportunities for growth, I strive to master various
+                                        programming languages, frameworks, and tools. Additionally, I understand the
+                                        importance of soft skills such as effective communication, teamwork, and
+                                        problem-solving, which are essential for success in the fast-paced world of
+                                        software development. Ultimately, my aspiration is not just to be a proficient
+                                        developer, but to be recognized as a leader and innovator in the industry,
+                                        making meaningful contributions to the advancement of technology and society as
+                                        a whole.
                                     </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col md-6 col-lg-6">
-                            <div id="gallery" class="position-relative">
-                                <a href="assets/img/projects/project-1.png">
-                                    <img src="assets/img/projects/project-1.png" class="shadow">
-                                </a>
-                                <a href="assets/img/projects/project-2.png">
-                                    <img src="assets/img/projects/project-2.png" class="shadow">
-                                </a>
-                                <a href="https://munazza-malik786.github.io/sbm/">
-                                    <img src="assets/img/projects/project-3.png" class="shadow">
-                                </a>
-                                <a href="https://munazza-malik786.github.io/FlexStart2/">
-                                    <img src="assets/img/projects/project-4.png" class="shadow">
-                                </a>
-                                <a href="https://munazza-malik786.github.io/Bizkeep/">
-                                    <img src="assets/img/projects/project-5.png" class="shadow">
-                                </a>
-                                <a href="assets/img/projects/project-5.5.png">
-                                    <img src="assets/img/projects/project-5.5.png" class="shadow">
-                                </a>
-                                <a href="assets/img/projects/project-6.png">
-                                    <img src="assets/img/projects/project-6.png" class="shadow">
-                                </a>
-                                <a href="assets/img/projects/project-7.png">
-                                    <img src="assets/img/projects/project-7.png" class="shadow">
-                                </a>
-                                <a href="assets/img/projects/project-8.png">
-                                    <img src="assets/img/projects/project-8.png" class="shadow">
-                                </a>
+                        <div class="col-12 col md-6 col-lg-6 mt-4 ">
+                            <div id="gallery">
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/project-1.png" class="">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/deal.png" class="">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/hexa-project.png" class="">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/flexstart.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/bizkeep.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/sound.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/trovel.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/resume.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/hexa.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

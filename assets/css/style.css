@@ -158,16 +158,6 @@ p {
     background-color: #42a5f5 !important;
 }
 
-.hero {
-    background-image: url('../img/hero-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.hero-bg-img {
-    overflow: hidden;
-}
-
 .hero span {
     margin-bottom: 15%;
     color: #012970 !important;
@@ -322,17 +312,6 @@ p {
 }
 
 /* =================AboutStart=========== */
-@media(max-width: 700px) {
-    .about .container {
-        padding-left: 15%;
-    }
-
-    .about .container .about-btn {
-        display: none;
-        /* text-align: center; */
-        /* padding-right: 70px; */
-    }
-}
 
 /* =================AboutEnd=========== */
 /* ==================main================ */
@@ -520,30 +499,51 @@ button.nav-link{
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-between;
 } .lg-toolbar{
     background: black !important;
 }
-#gallery a {
-    flex-basis: calc(33.33% - 10px);
+#gallery .col{
+    border-radius: 2px;
+}
+#gallery .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    display: none !important;
+}
+#gallery .overlay.bg-light{
+background-color: #f8f9faa8 !important;
+}
+#gallery .col {
+    /* flex-basis: calc(33.33% - 10px); */
     margin-bottom: 10px;
 }
 
 #gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
-#gallery img:hover {
+
+#gallery .col:hover {
     outline: 2px solid #050872;
     box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    /* z-index: 999; */
     transform: scale(0.95);
 }
-
+#gallery .col:hover .overlay{
+    display: block !important;
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+}
 #gallery img {
     /* width: 55%; */
-    border-radius: 2px;
+
     transition: all 0.2s;
 }
 
